@@ -1,13 +1,13 @@
 svg-browserify
 ===============
 
-Simple SVG transform for Browserify inspired by [https://github.com/duckbox/html-browserify](html-browserify) by [https://github.com/duckbox](duckbox)
+Simple SVG transform for Browserify inspired by [html-browserify](https://github.com/duckbox/html-browserify) by [duckbox](https://github.com/duckbox)
 
-##Install
+## Install
 
 	npm install svg-browserify
 
-##Usuage with Gulp
+## Usuage with Gulp
 
 ```javascript
 
