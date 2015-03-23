@@ -1,6 +1,6 @@
 {
   "name": "svg-browserify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Makes SVG files usuable as modules in Browserify",
   "main": "index.js",
   "scripts": {
