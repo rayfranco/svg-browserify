@@ -1,28 +1,25 @@
-html-browserify
+svg-browserify
 ===============
 
-[![Build Status](https://travis-ci.org/duckbox/html-browserify.png?branch=master)](https://travis-ci.org/duckbox/html-browserify)
-
-
-Simple HTML transform for Browserify
+Simple SVG transform for Browserify inspired by [https://github.com/duckbox/html-browserify](html-browserify) by [https://github.com/duckbox](duckbox)
 
 ##Install
 
-	npm install html-browserify
+	npm install svg-browserify
 
 ##Usuage with Gulp
 
 ```javascript
 
 //...
-var html = require('html-browserify');
+var svg = require('svg-browserify');
 //...
 
 gulp.task('js', function() {
   gulp.src('js/app.js')
     .pipe(browserify({
       insertGlobals: true,
-      transform: html
+      transform: svg
     }))
     .pipe(concat('app.js'))
     .pipe(gulp.dest('./public/js'));
