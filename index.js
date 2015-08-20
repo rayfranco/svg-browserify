@@ -4,7 +4,7 @@ module.exports = function(file) {
 
 	var buffer = '';
 
-	if (!/\.svg/.test(file)) {
+	if (!/\.svg$/.test(file)) {
 		return through();
 	} else {
 		return through(function(chunk) {
